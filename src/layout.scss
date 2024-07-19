@@ -1,7 +1,7 @@
 @import "./responsive.scss";
 
 .layout{
-    background-color: rebeccapurple;
+    background-color: rgb(171, 171, 172);
     height: 100vh;
     max-width: 1366px;
     margin-left: auto;
@@ -10,14 +10,17 @@
     padding-right: 20px;
     @include laptop{
         background-color: aqua;
+        max-width: 1280px;
     }
 
    
     @include tablet{
         background-color: rgb(43, 0, 255);
+        max-width: 768px;
     }
    
     @include phone{
         background-color: red;
+        max-width: 640px;
     }
 }

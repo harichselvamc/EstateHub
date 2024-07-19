@@ -1,0 +1,36 @@
+nav{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+
+    .left{
+        flex: 3;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+       a{
+        text-decoration: None;
+       }
+
+        .logo{
+            font-weight: bold;
+            font-size: 25px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        img{
+            width: 66px;
+        }
+    
+    }
+
+    .right{
+        flex: 2;
+        background-color: purple;
+    }
+
+}
