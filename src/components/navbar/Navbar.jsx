@@ -22,7 +22,7 @@ function Navbar() {
         {user ? (
           <div className="user">
             <img
-              src="./user.jpeg"
+              src="public/user.jpeg"
               alt=""
             />
             <span>harichselvam</span>
