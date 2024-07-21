@@ -1,0 +1,22 @@
+# Query: assets
+# ContextLines: 1
+
+4 results - 2 files
+
+src\components\chat\Chat.jsx:
+  11            <img
+  12:             src="/user.jpeg"
+  13              alt=""
+
+  19            <img
+  20:            src="/user.jpeg"
+  21              alt=""
+
+  31                <img
+  32:               src="/user.jpeg"
+  33                  alt=""
+
+src\routes\profilePage\profilePage.jsx:
+  17                <img
+  18:                src="/user.jpeg"
+  19                  alt=""
