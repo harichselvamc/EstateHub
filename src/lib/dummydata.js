@@ -116,4 +116,5 @@ export const singlePostData = {
 export const userData = {
   id: 1,
   name: "harichselvam",
-  img: "/user.jpeg"};
+  img: "/user.jpeg"
+};
